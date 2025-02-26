@@ -1,0 +1,133 @@
+@use '../../utils/variables' as v;
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)), url(/fon.jpg);
+    background-size: no-repeat;
+    background-size: cover;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.difficultyTitle {
+    font-size: 2rem;
+}
+
+.questionImg {
+    width: 33rem;
+    height: 20rem;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.coutryButtons__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.coutryButton {
+    font-weight: 600;
+    background-color: #ffffff;
+    width: v.$btnWidth;
+    padding: v.$btnPadding;
+    border-radius: v.$btnBorderRadius;
+    box-shadow: v.$boxShadowColor;
+    cursor: pointer;
+
+    &:hover {
+        background-color: v.$backgroundBtnColor;
+        transition: 0.2s;
+        box-shadow: none;
+    }
+
+    &:disabled {
+        pointer-events: none;
+    }
+}
+
+.correctBtn {
+    background: v.$correctAnswerColor;
+
+    &:hover {
+        background: v.$correctAnswerColor;
+    }
+}
+
+.wrongBtn {
+    background: v.$wrongAnswerColor;
+
+    &:hover {
+        background: v.$wrongAnswerColor;
+    }
+}
+
+.nextBtnContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.nextBtn {
+    width: v.$btnWidth;
+    padding: v.$btnPadding;
+    border-radius: v.$btnBorderRadius;
+    box-shadow: v.$boxShadowColor;
+    cursor: pointer;
+    background: v.$backgroundBtnColor;
+
+    &:hover {
+        transition: 0.2s;
+        box-shadow: none;
+    }
+}
+
+.changingDifficultyContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.ChangingDifficulty {
+    margin-left: 35%;
+    width: 10rem;
+    padding: v.$btnPadding;
+    border-radius: v.$btnBorderRadius;
+    cursor: pointer;
+    box-shadow: v.$boxShadowColor;
+    background: v.$backgroundBtnColor;
+
+    &:hover {
+        transition: 0.2s;
+        box-shadow: none;
+    }
+}
+
+//320-480 px
+@media (max-width: 480px) {
+    .questionImg {
+        width: 22rem;
+        height: 15rem;
+    }
+
+    .coutryButtons__box {
+        grid-template-columns: 1fr;
+    }
+
+    .ChangingDifficulty {
+        margin-left: 27%;
+    }
+}

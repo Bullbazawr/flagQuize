@@ -1,0 +1,222 @@
+{
+    "easyQuestions": [
+        {
+            "id": "1",
+            "country": "Russia",
+            "src": "../rus.jpg",
+            "optionOne":"Russia",
+            "optionTwo":"Belarus",
+            "optionThree":"Portugal",
+            "optionFour":"Italy"
+        },
+        {
+            "id": "2",
+            "country": "Holland",
+            "src": "../holland.jpg",
+            "optionOne":"Argentina",
+            "optionTwo":"England",
+            "optionThree":"Belgium",
+            "optionFour":"Holland"
+        },
+        {
+            "id": "3",
+            "country": "Argentina",
+            "src": "../argentina.jpg",
+            "optionOne":"Spain",
+            "optionTwo":"India",
+            "optionThree":"Georgia",
+            "optionFour":"Argentina"
+        },
+        {
+            "id": "4",
+            "country": "Belgium",
+            "src": "../belgija.jpg",
+            "optionOne":"Russia",
+            "optionTwo":"Belgium",
+            "optionThree":"Egypt",
+            "optionFour":"Italy"
+        },
+        {
+            "id": "5",
+            "country": "Belarus",
+            "src": "../belorussija.jpg",
+            "optionOne":"Brazil",
+            "optionTwo":"England",
+            "optionThree":"Belarus",
+            "optionFour":"Sweden"
+        },
+        {
+            "id": "6",
+            "country": "Brazil",
+            "src": "../brazilija.jpg",
+            "optionOne":"France",
+            "optionTwo":"Brazil",
+            "optionThree":"USA",
+            "optionFour":"Argentina"
+        },
+        {
+            "id": "7",
+            "country": "Greece",
+            "src": "../gretsija.jpg",
+            "optionOne":"Finland",
+            "optionTwo":"Greece",
+            "optionThree":"Indonesia",
+            "optionFour":"Germany"
+        },
+        {
+            "id": "8",
+            "country": "Georgia",
+            "src": "../gruzija.jpg",
+            "optionOne":"Denmark",
+            "optionTwo":"Switzerland",
+            "optionThree":"Peru",
+            "optionFour":"Georgia"
+        },
+        {
+            "id": "9",
+            "country": "India",
+            "src": "../indija.jpg",
+            "optionOne":"India",
+            "optionTwo":"Kenya",
+            "optionThree":"Colombia",
+            "optionFour":"Cuba"
+        },
+        {
+            "id": "10",
+            "country": "Italy",
+            "src": "../italija.jpg",
+            "optionOne":"Latvia",
+            "optionTwo":"Italy",
+            "optionThree":"Norway",
+            "optionFour":"Turkey"
+        },
+        {
+            "id": "11",
+            "country": "South Korea",
+            "src": "../juznaja_koreja.jpg",
+            "optionOne":"Poland",
+            "optionTwo":"Japan",
+            "optionThree":"China",
+            "optionFour":"South Korea"
+        },
+        {
+            "id": "12",
+            "country": "Canada",
+            "src": "../kanada.jpg",
+            "optionOne":"Romania",
+            "optionTwo":"Canada",
+            "optionThree":"Slovakia",
+            "optionFour":"Ukraine"
+        },
+        {
+            "id": "13",
+            "country": "USA",
+            "src": "../usa.jpg",
+            "optionOne":"Uruguay",
+            "optionTwo":"Czech",
+            "optionThree":"Scotland",
+            "optionFour":"USA"
+        }
+    ],
+    "hardQuestions": [
+        {
+            "id": "1",
+            "country": "Bangladesh",
+            "src": "../Bangladesh.jpg",
+            "optionOne":"Estonia",
+            "optionTwo":"Sri Lanka",
+            "optionThree":"Ecuador",
+            "optionFour":"Bangladesh"
+        },
+        {
+            "id": "2",
+            "country": "Bahrain",
+            "src": "../Bahrejn.jpg",
+            "optionOne":"Bahrain",
+            "optionTwo":"Austria",
+            "optionThree":"Botswana",
+            "optionFour":"Luxembourg"
+        },
+        {
+            "id": "3",
+            "country": "Zambia",
+            "src": "../Zambija.jpg",
+            "optionOne":"Namibia",
+            "optionTwo":"Zambia",
+            "optionThree":"Pakistan",
+            "optionFour":"Paraguay"
+        },
+        {
+            "id": "4",
+            "country": "Uganda",
+            "src": "../Uganda.jpg",
+            "optionOne":"Pakistan",
+            "optionTwo":"Belgium",
+            "optionThree":"Uganda",
+            "optionFour":"Kiribati"
+        },
+        {
+            "id": "5",
+            "country": "Tanzanija",
+            "src": "../Tanzanija.jpg",
+            "optionOne":"Bangladesh",
+            "optionTwo":"Tanzanija",
+            "optionThree":"Jamajaka",
+            "optionFour":"Gana"
+        },
+        {
+            "id": "6",
+            "country": "Livija",
+            "src": "../Livija.jpg",
+            "optionOne":"Livija",
+            "optionTwo":"Jamajaka",
+            "optionThree":"USA",
+            "optionFour":"Gana"
+        },
+        {
+            "id": "7",
+            "country": "Kiribati",
+            "src": "../Kiribati.jpg",
+            "optionOne":"Finland",
+            "optionTwo":"Greece",
+            "optionThree":"Indonesia",
+            "optionFour":"Kiribati"
+        },
+        {
+            "id": "8",
+            "country": "Jamajaka",
+            "src": "../Jamajaka.jpg",
+            "optionOne":"Jamajaka",
+            "optionTwo":"Chile",
+            "optionThree":"Peru",
+            "optionFour":"Scotland"
+        },
+        {
+            "id": "9",
+            "country": "Gana",
+            "src": "../Gana.jpg",
+            "optionOne":"India",
+            "optionTwo":"Kenya",
+            "optionThree":"Gana",
+            "optionFour":"Cuba"
+        },
+        {
+            "id": "10",
+            "country": "Filippiny",
+            "src": "../Filippiny.jpg",
+            "optionOne":"Gana",
+            "optionTwo":"Italy",
+            "optionThree":"Norway",
+            "optionFour":"Filippiny"
+        },
+        {
+            "id": "11",
+            "country": "Barbados",
+            "src": "../Barbados.jpg",
+            "optionOne":"Barbados",
+            "optionTwo":"Japan",
+            "optionThree":"China",
+            "optionFour":"Kenya"
+        }
+    ]
+}
